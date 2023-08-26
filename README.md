@@ -81,4 +81,4 @@ To learn more about React Native, take a look at the following resources:
 Jawaban Nomor 4.
 
 menurut saya untuk update like, post, and comment secara langsung bisa menggunakan tools state managemen seperti redux, suztan, atau useContext dengan catatan data sebelumnya harus disimpan dalam state management.
-atau dengan cara lain, ketika melakukan update like, post, and comment maka hit andpoint kemudian bisa di refetch menggunakan useEffect dan di dependencies useEffect diberikan triger key yang ketika ada data di update akan kerender.
+atau dengan cara lain, ketika melakukan update like, post, and comment maka hit andpoint kemudian bisa di refetch menggunakan useEffect dan di dependencies useEffect diberikan triger key yang ketika ada data di update akan dirender kembali.
